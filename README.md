@@ -2,7 +2,7 @@
 URL for the App: 
 
 ## Description
-This code is a Streamlit web application designed to help users plan a nutritionally balanced meal at McDonald's. The application takes user input for various nutrition constraints, filters McDonald's menu items based on these constraints, and recommends a set of menu items that best match the user's preferences. The recommendations are then visualized through a table and a bar plot showing the nutrition information of the recommended items.
+This Streamlit web application is a nutrition planner designed to assist users in planning a nutritionally balanced meal at McDonald's. This tool takes user input for various nutrition constraints, filters McDonald's menu items based on these constraints, and recommends a set of menu items that best match the user's preferences.
 
 ## Key Features
 - **Nutrition Constraints:** Users can set constraints for total fat, saturated fat, sugar, carbohydrates, and protein.
@@ -25,7 +25,9 @@ This code is a Streamlit web application designed to help users plan a nutrition
 7. The results will be displayed on the screen, including a bar plot.
 
 ## Contributing
-Contributions and issue reports are welcome. If you encounter any problems or have ideas for improvements, please open an issue or submit a pull request.
+Feel free to explore and contribute to the project! Your feedback and contributions are highly appreciated.
 
+## Acknowledgments
+- Inspiration for this project was drawn from [Kyle Pastor's article](https://towardsdatascience.com/making-mcdonalds-healthy-197f537f931d) and [Avery Smith's YouTube tutorial](https://www.youtube.com/watch?v=3bbFc1225-4&list=PLo0oTKi2fPNiMBo2hXreEetXCXev170ZZ&index=29).
 
 
