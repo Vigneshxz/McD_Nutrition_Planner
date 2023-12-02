@@ -28,6 +28,6 @@ This Streamlit web application is a nutrition planner designed to assist users i
 Feel free to explore and contribute to the project! Your feedback and contributions are highly appreciated.
 
 ## Acknowledgments
-- Inspiration for this project was drawn from [Kyle Pastor's article](https://towardsdatascience.com/making-mcdonalds-healthy-197f537f931d) and [Avery Smith's YouTube tutorial](https://www.youtube.com/watch?v=3bbFc1225-4&list=PLo0oTKi2fPNiMBo2hXreEetXCXev170ZZ&index=29).
+- Inspiration for this project was drawn from [Kyle Pastor's article](https://towardsdatascience.com/making-mcdonalds-healthy-197f537f931d) and [Avery Smith](https://www.youtube.com/watch?v=3bbFc1225-4&list=PLo0oTKi2fPNiMBo2hXreEetXCXev170ZZ&index=29).
 
 
