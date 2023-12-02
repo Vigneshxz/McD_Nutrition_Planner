@@ -1,34 +1,33 @@
-#McD_Nutrition_Planner
+# Healthy-tool-using-data-analysis-and-python
+URL for the App: https://mchealthy-tool-using-data-analysis-and-python-j53vmmpizrgbggie.streamlit.app/
 
-This code is a Streamlit web application designed to help users plan a nutritionally balanced meal at McDonald's. The application takes user input for various nutrition constraints, filters McDonald's menu items based on these constraints, and recommends a set of menu items that best match the user's preferences. The recommendations are then visualized through a table and a bar plot showing the nutrition information of the recommended items.
+## Description
+The Healthy Eating Tool is a data analytics and optimization project that helps users create a healthy meal from McDonald's menu items while meeting specific nutritional constraints. This tool utilizes linear programming and visualization techniques to provide a nutritious meal plan.
 
-Let's break down the code:
-Importing Libraries
-streamlit, pandas, matplotlib, and seaborn libraries are imported to create a web application, handle data, and visualize the recommendations.
-Loading McDonald's Menu Data
-The code loads menu data from a CSV file named 'Menu.csv' using pd.read_csv('Menu.csv').
-Column names are converted to lowercase for consistency using menu_data.columns = menu_data.columns.str.lower().
-Streamlit Application Setup
-The Streamlit application is initialized with a title and introductory text.
-User Input for Nutrition Constraints
-The user can set various nutrition constraints through sliders in the sidebar. These constraints include maximum/minimum values for total fat, saturated fat, sugar, carbohydrates, and protein.
-Filtering Menu Items
-The menu items are filtered based on user-defined constraints using boolean indexing.
-Calculating Similarity Scores
-Similarity scores are calculated to find items that are closest to the user's preferences. The scores are computed based on the squared differences between user input and menu item nutrition values.
-Sorting and Displaying Recommendations
-The menu items are sorted based on similarity scores, and the top recommendations are displayed in a table using st.table().
-Visualizing Nutrition Information
-A bar plot is created using matplotlib and seaborn to visualize the nutrition information of the recommended items.
-The bar plot includes information about total fat, saturated fat, sugar, carbohydrates, and protein for the recommended items.
-Displaying Total Calories
-The total calories for the recommended items are calculated and displayed as a subheader.
-Data Science/Analysis Concepts Used:
-Data Loading: Loading menu data from an external CSV file using pandas.
-Data Cleaning: Converting column names to lowercase for consistency.
-Data Filtering: Filtering menu items based on user-defined nutrition constraints.
-Similarity Calculation: Computing similarity scores to find items that closely match user preferences.
-Data Visualization: Using matplotlib and seaborn for visualizing nutrition information through a bar plot.
-Interactive Web Application: Creating an interactive web application using Streamlit for user input and displaying recommendations.
+## Key Features
+- Optimizes McDonald's menu items to meet user-defined nutritional constraints.
+- Allows customization of constraints for calories, total fat, saturated fat, carbohydrates, sugars, protein, and sodium.
+- Visualizes the optimized meal plan using a circular chart.
+- Provides insight into the nutritional content of the meal.
 
-This code integrates various data science and data analysis concepts to provide a user-friendly tool for planning a balanced meal based on nutrition constraints.
+## Technologies Used
+- Python
+- Streamlit for the user interface
+- PuLP for linear programming
+- Circlify for data visualization
+- Pandas for data manipulation
+
+## How to Use
+1. Clone or download this repository to your local machine.
+2. Install the required dependencies using the following command:pip install streamlit pandas pulp circlify
+3. Download the menu data file `menu.csv.csv` and place it in the project directory.
+4. Run the Streamlit app using the following command:streamlit run mchealthy.py
+5. Use the sidebar in the app to set your nutritional constraints.
+6. Click the "Optimize" button to find the best food combination that meets your constraints.
+7. The results will be displayed on the screen, including a circular chart showcasing the meal plan.
+
+## Contributing
+Contributions and issue reports are welcome. If you encounter any problems or have ideas for improvements, please open an issue or submit a pull request.
+
+
+
