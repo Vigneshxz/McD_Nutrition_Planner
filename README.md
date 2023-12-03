@@ -1,5 +1,5 @@
 # Nutrition_Planner-tool-using-data-analysis-and-python
-URL for the App: 
+URL for the App: https://mcdnutritionplanner.streamlit.app
 
 ## Description
 This Streamlit web application is a nutrition planner designed to assist users in planning a nutritionally balanced meal at McDonald's. This tool takes user input for various nutrition constraints, filters McDonald's menu items based on these constraints, and recommends a set of menu items that best match the user's preferences.
